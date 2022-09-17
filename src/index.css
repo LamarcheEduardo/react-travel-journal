@@ -1,0 +1,122 @@
+:root {
+  font-family: 'Inter', sans-serif;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.Navbar--airplane {
+  height: 25px;
+  width: 25px;
+}
+
+.navbar--nav {
+  width: 100%;
+  height: 55px; 
+  background: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: fixed;
+
+
+}
+
+.navbar--text {
+ color: white;
+}
+
+.journal--card {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: -60px;
+}
+
+.journal--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.journal--img {
+
+  width: 150px;
+  height: 199px;
+  border-radius: 5px;
+}
+
+.journal--holder {
+
+  width: 12px;
+  height: 12px;
+
+}
+
+.journal--link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  margin-left: 9px;
+}
+
+.journal--description { 
+  width: 326px;
+  height: 45px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  text-align: justify;
+  line-height: 150%;
+}
+
+.journal--dates {
+  width: 319px;
+  height: 11px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: #2B283A;
+  margin-top: -10px;
+  
+}
+
+.journal--title{
+  width: 326px;
+  height: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  margin-top: -10px;
+
+
+}
+
+.right-side {
+  margin: 15px;
+  margin-top: -2px;
+}
+
+.right-side-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3px;
+}
+
